@@ -68,3 +68,7 @@ form input[type="submit"]:hover {
     display: block;
     margin: 20px auto;
 }
+
+.container {
+    text-align: center;
+}
