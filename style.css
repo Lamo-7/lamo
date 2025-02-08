@@ -2,11 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
+    background: linear-gradient(to right, #f4f4f9, #e0e0e5);
 }
 
 header {
-    background-color: #333;
+    background: linear-gradient(to right, #333, #555);
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -26,6 +26,7 @@ nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.3s ease-in-out;
 }
 
 main {
@@ -54,14 +55,14 @@ form input, form textarea {
 
 form input[type="submit"] {
     width: auto;
-    background-color: #333;
+    background: linear-gradient(to right, #333, #777);
     color: white;
     border: none;
     cursor: pointer;
 }
 
 form input[type="submit"]:hover {
-    background-color: #555;
+    background: linear-gradient(to right, #555, #777);
 }
 
 .video, .video img {
