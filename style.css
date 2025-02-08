@@ -2,74 +2,38 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right, #f4f4f9, #e0e0e5);
+    background: linear-gradient(to right, #ffffff, #f0f0f5);
 }
 
 header {
-    background: linear-gradient(to right, #333, #555);
+    background: linear-gradient(to right, #007bff, #66a3ff);
     color: #fff;
     padding: 10px 0;
     text-align: center;
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 10px;
-}
-
 nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
+    color: #fff;
     transition: color 0.3s ease-in-out;
 }
 
-main {
-    padding: 20px;
+nav ul li a:hover {
+    color: #ffdd57;
 }
 
 h1, h2 {
-    color: #333;
+    color: #0056b3;
 }
 
 footer {
-    background-color: #333;
+    background-color: #007bff;
     color: white;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-
-form input, form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
 }
 
 form input[type="submit"] {
-    width: auto;
-    background: linear-gradient(to right, #333, #777);
-    color: white;
-    border: none;
-    cursor: pointer;
+    background: linear-gradient(to right, #007bff, #3399ff);
 }
 
 form input[type="submit"]:hover {
-    background: linear-gradient(to right, #555, #777);
-}
-
-.video, .video img {
-    display: block;
-    margin: 20px auto;
-}
-
-.container {
-    text-align: center;
+    background: linear-gradient(to right, #0056b3, #3399ff);
 }
